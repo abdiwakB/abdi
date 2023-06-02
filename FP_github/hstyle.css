@@ -1,0 +1,40 @@
+.site-footer {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.site-footer a {
+  color: #fff;
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.site-footer a:hover {
+  opacity: 1;
+}
+
+.site-footer h3 {
+  color: #fff;
+}
+
+.site-footer ul li {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  background-color: #fff;
+  color: #343a40;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.social-icons a:hover {
+  background-color: #1ABC9C;
+  color: #fff;
+}

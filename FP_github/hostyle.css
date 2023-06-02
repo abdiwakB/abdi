@@ -1,0 +1,354 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Set the margin and padding of the body element to zero */
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* Set the width and height of the HTML and body elements to 100% */
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+/* Set the display property of the body element to flex */
+body {
+	display: flex;
+}
+
+/* Center the contents of the body element vertically and horizontally */
+body {
+	align-items: center;
+	justify-content: center;
+}
+
+
+body {
+    
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Header styles */
+header {
+    background-color: #e2240f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #c0392b;
+}
+
+/* Main styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.on-img-image {
+    height: 400px;
+   
+   
+}
+
+.hero-text {
+    background-color: #6d0c02;
+    position: absolute;
+    bottom: 150px;
+    left:0px;
+    color: #8b8282; /* change font color */
+    font-size: 24px; /* change font size */
+    font-weight: bolder; 
+  font-style: oblique;
+  }
+
+
+
+
+
+
+
+.on-img-text2 {
+    position: absolute;
+    top: 30%;
+    right:  100px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-family: Arial;
+    color: rgb(19, 2, 2);
+  }
+.sec{
+    background-image: url('img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-position: left left;
+  background-repeat: no-repeat;
+    
+}
+.on-img-text {
+    background-color: rgba(252, 171, 171, 0.8);
+    padding: 0rem;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 12;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: 380px;
+  left: 0;
+}
+
+.on-img-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.on-img-text p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.on-img-text button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.on-img-text button:hover {
+    background-color: #c0392b;
+}
+.on-img p {
+    color: #fff;
+    font-weight: bold;
+  }
+
+.about-us {
+    margin-top: 3rem;
+}
+
+.about-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.services {
+    margin-top: 3rem;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.services ul {
+    list-style: none;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+
+.services ul li {
+    margin-bottom: 1rem;
+}
+
+.news {
+    margin-top: 3rem;
+}
+
+.news h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.news article {
+    margin-bottom: 2rem;
+}
+
+.news article h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.news article p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.news article a {
+    color: #e74c3c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* footer*/
+
+footer {
+    background-color: #e27f7f;
+    padding: 30px 0;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .col-md-4 {
+    width: 33.33%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  h3 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #333;
+  }
+  
+  p, ul {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #772424;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #333;
+  }
+
+
+  /* link */
+
+
+  .link {
+    background-color: #410303;
+    position: absolute;
+    top: 200px;
+    right:100px;
+   
+  }
+  
+  .link ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px; 
+  }
+  
+  .link li {
+    display: inline-block;
+    margin-left: 10px;
+     
+  }
+  
+  .link a {
+    color: #f0efef; /* or any other color you prefer */
+    text-decoration: none;
+    font-size: 20px;  
+    font-weight: bolder;
+    font-style: oblique;
+  
+  }
+  .about-us p {
+    padding-left: 40px; /* adjust this value to move text more or less to the left */
+    padding-right: 40px; /* adjust this value to move text more or less to the right */
+  }
+  .about-us{
+    padding-left: 30px;
+  }
+  .services {
+    background-image: url('abdi_bd.jpg'); /* Replace with the actual path to your image */
+   height: 500px;
+  }
+  .ser {
+    position: absolute;
+    top: 1200;
+    right: 0;
+    color: #9e0909; /* adjust the font color to your preference */
+    font-size: 24px; /* adjust the font size to your preference */
+    font-family: Arial, sans-serif; /* adjust the font family to your preference */
+  }
+  .services h1 {
+    background-color: #6d0c02;
+    font-size: 28px; /* adjust the font size to your preference */
+    font-family: Arial, sans-serif; /* adjust the font family to your preference */
+    color: #2e0f0f; 
+    font-weight: bolder;/* adjust the font color to your preference */
+  }
+  .text-box {
+    background-color: #e71414;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-style: italic;
+    color: #333;
+    width: 30%;
+    top: 100px;
+  }
+  .text-box p {
+    margin: 0;
+    text-align: left;
+    font-size: 20px;
+    font-style: oblique;
+    color: #333;
+  
+  }
+  
+  
